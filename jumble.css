@@ -58,7 +58,7 @@ body{
 .body .try{
     position: absolute;
     top: 20vh;
-    font-size:10vh;
+    font-size:8vh;
     color: rgb(78, 78, 78);
     text-shadow: 0px 0px 1vh white,0px 0px 2vh white,0px 0px 3vh white, 0px 0px 4vh white,0px 0px 5vh white,0px 0px 6vh white;
 }
