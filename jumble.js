@@ -28,6 +28,7 @@ function start(){
         document.getElementById("tries").innerHTML = "TRIES LEFT:"+sco+" , YOUR SCORE IS:"+score;
         document.getElementById("tries").style.fontSize = "4.2vh";
         document.getElementById("tries").style.top = "7vh";
+        document.getElementById("imp1").value = '';
         newwor = crneword();
         scraword = scr(newwor.split("")).join("");
         document.getElementById("wor").innerHTML = "YOUR SCRAMBLE WORD IS:"+scraword;
@@ -38,7 +39,7 @@ function start(){
         if(inpt1 === newwor){
             score += 10
             document.getElementById("wor1").innerHTML = "IT IS CORRECT";
-            document.getElementById("but").style.width = "250px";
+            document.getElementById("but").style.width = "30vw";
             document.getElementById("but").innerHTML = "NEXT WORD";
             document.getElementById("tries").innerHTML = "TRIES LEFT:"+sco+", YOUR SCORE IS:"+score;
             play = false;
